@@ -1,0 +1,25 @@
+Here's a detailed description of the folder structure created by Next.js:
+
+.next: This folder is automatically generated and contains build artifacts, compiled JavaScript code, and server-side rendering logic. You generally don't need to modify anything in this folder.
+
+node_modules: This is where your project's dependencies are stored after running npm install or yarn install.
+
+public: This folder is meant for static assets that can be served directly by the server, such as images, fonts, and other media files. Files placed here are accessible from the root URL of your application.
+
+src: While not created by default, you can create this folder to organize your project's source code. You can place your components, pages, styles, and other application-specific files here.
+
+pages: This is a special folder in Next.js where you define your application's routes. Each .js or .jsx file inside this folder becomes a route in your application. For example, pages/index.js corresponds to the root URL ("/"), and pages/about.js corresponds to "/about".
+
+styles: This folder is used for storing global or component-specific stylesheets. By default, Next.js supports CSS modules, allowing you to write modular and scoped styles.
+
+components: This is where you can organize and store your React components. You can create sub-folders for different categories of components if needed.
+
+package.json: This file contains information about your project and its dependencies. You can also define scripts for running various tasks here.
+
+package-lock.json (or yarn.lock for Yarn users): These files lock the exact versions of your project's dependencies to ensure consistency across different environments.
+
+README.md: This is where you can provide information about your project, its setup, and usage instructions.
+
+.gitignore: This file specifies files and directories that should be ignored by version control (Git). It helps you avoid committing unnecessary files to your repository.
+
+next.config.js: This optional configuration file allows you to customize various aspects of Next.js, such as modifying webpack settings or adding plugins
